@@ -18,6 +18,10 @@
   ],
   "type": "module",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+     "access": "public"
+  },
   "scripts": {
     "format": "oxfmt --write .",
     "lint": "oxlint ."
